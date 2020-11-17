@@ -1,10 +1,10 @@
 #include<stdio.h>
 int main()
 {
-    int num,num1;
+    int num1,num2;
     printf("Enter any number: ");
-    scanf("%d", &num);
-    num1 = (1 << 3)|num;
-    printf("Result:%d",num1);
+    scanf("%d", &num1);
+    num2 = (1 << 3)|num1;
+    printf("Result:%d",num2);
     return 0;
 }
